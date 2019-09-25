@@ -1,0 +1,96 @@
+body {
+    color: tomato;
+}
+
+#demo1, #demo2, #demo3, #demo4  {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url(images/work1/frame_1_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px 15px 0 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#demo4 {
+    text-align: center;
+}
+
+img.text_1 {
+    color: #333;
+
+}
+
+img.mascot_1 {
+    float: right;
+    padding-top: 5px;
+}
+
+/* Task two */
+div#demo2 .mascot_1_1 {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+#demo2 .text_1 img {
+    position: absolute;
+    right: 24%;
+    top: 24px;
+    width: 120px;
+}
+
+#demo2 .text_1 .text_1_2 {
+    right: 19%;
+    top: 53%;
+}
+
+div#demo2 .bottom_text {
+    bottom: 8px;
+    position: absolute;
+    right: 12px;
+    width: 65px;
+}
+
+/* Task three */
+div#demo3 img.stamped {
+    position: absolute;
+    right: 66px;
+    top: 50px;
+}
+
+div#demo3 .mascot_1_1 {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+div#demo3 img.bottom_text {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Task 4 */
+#demo4 .mascot_4 img.mascot {
+    position: absolute;
+    left: 40%;
+    top: 26%;
+}
+
+#demo4 .mascot_4 img.btn {
+    position: absolute;
+    left: 24%;
+    top: 42%;
+}
+
+#demo4 .btn_4_footer img {
+    position: absolute;
+    bottom: 17px;
+    left: 33%;
+}
+
+
